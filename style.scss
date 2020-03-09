@@ -37,8 +37,6 @@ margin: 0 auto;
         bottom: 0;
         position: absolute;
     }
-
-
     &__top {
         display: flex;
         justify-content: space-between;
@@ -123,5 +121,43 @@ margin: 0 auto;
 
         }
 
+    }
+}
+.section{
+    &-title {
+        color: #545454;
+        font-size: 35px;
+        letter-spacing: 1.8px;
+        font-weight: 400;
+
+    }
+}
+
+.about-us {
+    width: 100%;
+    background-image: url("./img/Pets.png");
+    background-size: 25%;
+    background-position: 20% 50%;
+    background-repeat: no-repeat;
+    padding-top: 89px;
+    padding-bottom: 89px;
+    &-info {
+        width: 417/1170*100%;
+        margin-left: 585/1170*100%;
+   
+    }
+ 
+    &__title{
+        width: 300/417*100%;
+
+    }
+    &__text {
+        font-family: arial;
+        font-size: 15px;
+        color: #4c4c4c;
+        font-weight: 400;
+        line-height: 24px;
+        width: 414/417*100%;
+        
     }
 }
