@@ -30,11 +30,12 @@ ul {
   content: "";
   width: 50%;
   height: 100%;
-  left: 49%;
+  left: 50%;
   right: 0;
   top: 0;
   bottom: 0;
   position: absolute;
+  background-repeat: no-repeat;
 }
 
 .header__top {
